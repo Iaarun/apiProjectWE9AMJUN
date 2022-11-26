@@ -18,13 +18,6 @@ public class POSTRequestPayload {
 				+ "}";
 	}
 	
-	public Map<String, String> createUserdataMap(String name, String job) {
-		 Map<String, String> data = new HashMap<String, String>();
-		 
-		 data.put("name", name);
-		 data.put("job", job);
-		 
-		 return data;
-	}
+	
 	
 }
